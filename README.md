@@ -2,10 +2,17 @@
 Proyek ini bertujuan untuk menganalisis sinyal elektrokardiogram (ECG) dari dua sumber data utama, yaitu MIT-BIH Arrhythmia Dataset dan PTB Diagnostic ECG Database, untuk mendeteksi dan membedakan kondisi jantung normal dan abnormal. Data yang digunakan berasal dari rekaman aktivitas listrik jantung yang mencatat variasi potensial listrik yang dihasilkan oleh kontraksi dan relaksasi otot jantung.
 
 # Tujuan Proyek:
-1. Visualisasi Sinyal ECG: Menampilkan sinyal EKG dalam domain waktu untuk kedua kategori data (normal dan abnormal) untuk mendapatkan gambaran umum tentang pola aktivitas listrik jantung.
-2. Transformasi Fourier: Menggunakan transformasi Fourier untuk menganalisis komponen frekuensi dalam sinyal ECG dan memberikan wawasan tentang spektrum frekuensi yang membentuk sinyal tersebut.
-3. Analisis Sinyal Normal dan Abnormal: Membandingkan perbedaan antara sinyal ECG dalam kondisi normal dan kondisi abnormal, seperti aritmia atau gangguan jantung lainnya.
-4. Deteksi Gangguan Jantung: Menyediakan metode untuk mendeteksi gangguan irama jantung melalui analisis sinyal dalam domain waktu dan frekuensi, serta untuk mengidentifikasi potensi masalah kesehatan jantung.
+1. Visualisasi Sinyal ECG:
+   Menampilkan sinyal EKG dalam domain waktu untuk kedua kategori data (normal dan abnormal) untuk mendapatkan gambaran umum    tentang pola aktivitas listrik jantung.
+   
+2. Transformasi Fourier:
+   Menggunakan transformasi Fourier untuk menganalisis komponen frekuensi dalam sinyal ECG dan memberikan wawasan tentang       spektrum frekuensi yang membentuk sinyal tersebut.
+   
+3. Analisis Sinyal Normal dan Abnormal:
+   Membandingkan perbedaan antara sinyal ECG dalam kondisi normal dan kondisi abnormal, seperti aritmia atau gangguan           jantung lainnya.
+   
+4. Deteksi Gangguan Jantung:
+   Menyediakan metode untuk mendeteksi gangguan irama jantung melalui analisis sinyal dalam domain waktu dan frekuensi,         serta untuk mengidentifikasi potensi masalah kesehatan jantung.
 
 # Manfaat Proyek:
 1. Peningkatan Pemahaman: Memberikan pemahaman yang lebih baik tentang bagaimana gangguan jantung mempengaruhi sinyal ECG, baik dalam domain waktu maupun frekuensi.
@@ -21,10 +28,17 @@ Yang berasal dari dataset MIT-BIH Arrhythmia dan PTB Diagnostic ECG Database.
 - PTBDB: Mengandung data normal dan abnormal, termasuk pasien dengan kondisi seperti infark miokard (serangan jantung).
 
 # Metodologi:
-1. Pengolahan Data: Menggunakan file CSV yang berisi sinyal EKG yang dipotong dan disegmentasi untuk setiap detak jantung. Setiap baris dalam file CSV mewakili data sinyal untuk detak jantung tertentu.
-2. Analisis Sinyal dalam Domain Waktu: Menampilkan sinyal dalam domain waktu menggunakan Matplotlib untuk visualisasi pola detak jantung baik dalam kondisi normal maupun abnormal.
-3. Transformasi Fourier: Menggunakan Scipy.fft untuk melakukan transformasi Fourier dan memperoleh informasi frekuensi dari sinyal ECG. Transformasi ini memungkinkan kita untuk mengidentifikasi komponen-komponen frekuensi yang membentuk sinyal jantung.
-4. Perbandingan Kondisi Normal dan Abnormal: Membandingkan sinyal ECG yang diperoleh dari pasien yang sehat (normal) dengan pasien yang mengalami gangguan jantung (abnormal) dan mengidentifikasi pola yang berbeda dalam spektrum frekuensi.
+1. Pengolahan Data:
+   Menggunakan file CSV yang berisi sinyal EKG yang dipotong dan disegmentasi untuk setiap detak jantung. Setiap baris dalam    file CSV mewakili data sinyal untuk detak jantung tertentu.
+   
+2. Analisis Sinyal dalam Domain Waktu:
+   Menampilkan sinyal dalam domain waktu menggunakan Matplotlib untuk visualisasi pola detak jantung baik dalam kondisi         normal maupun abnormal.
+   
+3. Transformasi Fourier:
+   Menggunakan Scipy.fft untuk melakukan transformasi Fourier dan memperoleh informasi frekuensi dari sinyal ECG.               Transformasi ini memungkinkan kita untuk mengidentifikasi komponen-komponen frekuensi yang membentuk sinyal jantung.
+   
+4. Perbandingan Kondisi Normal dan Abnormal:
+   Membandingkan sinyal ECG yang diperoleh dari pasien yang sehat (normal) dengan pasien yang mengalami gangguan jantung        (abnormal) dan mengidentifikasi pola yang berbeda dalam spektrum frekuensi.
 
 # Hasil yang Diharapkan:
 1. Visualisasi sinyal EKG yang memudahkan untuk membedakan pola normal dan abnormal.
